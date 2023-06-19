@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Seller Moon",
+    "detail": "private shopping mall page",
+    "thumbnail_url": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687200479/portfolio/screenshot/sellermoon_smfxfh.png",
+    "stack": {
+      "react": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687200244/portfolio/logos/icons8-react-native-48_wpctfd.png",
+      "tailwind": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687199901/portfolio/logos/icons8-tailwind-css-48_ag0oag.png"
+    }
+  },
+  {
+    "title": "Youtube",
+    "detail": "youtube clone coding",
+    "thumbnail_url": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687204217/portfolio/screenshot/youtube_f1appu.png",
+    "stack": {
+      "react": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687200244/portfolio/logos/icons8-react-native-48_wpctfd.png",
+      "tailwind": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687199901/portfolio/logos/icons8-tailwind-css-48_ag0oag.png"
+    }
+  }
+]

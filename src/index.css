@@ -1,7 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;0,400;0,600;0,700;1,600;1,700&family=Poppins:wght@400;600;700&display=swap');
+:root {
+  --main-bg-color: #fbede2;
+  --bg-grey-color: #f9f5f2;
+  --bg-white-color: #f5f4f2;
+  --bg-green-color: #e6eed8;
+  --main-yellow-color: #f1c848;
+}
+html {
+  scroll-behavior: smooth;
+}
 
 * {
   box-sizing: border-box;
@@ -13,22 +24,30 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
-  @apply bg-bg-white;
+  background: var(--main-bg-color);
   @apply flex justify-center;
   font-family: 'Poppins', sans-serif;
+  font-family: 'Karla', sans-serif;
   overflow-y: auto;
+  color: #343434;
 }
 
 #root {
   @apply w-full max-w-screen-2xl h-full;
-  @apply border-2;
+  @apply border-4;
+  border-radius: 22px;
+  box-shadow: 9px 9px 0px 0px rgb(0, 0, 0);
+  background: var(--bg-grey-color);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+.header {
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+}
 /* SkillSet */
 
 .container {
@@ -48,9 +67,12 @@ code {
 }
 .skill-box .title {
   display: block;
-  font-size: 1rem;
+  font-size: 1.3rem;
+  margin-bottom: 2px;
 }
-
+.skill-title {
+  font-size: 2rem;
+}
 .skill-bar {
   display: flex;
   justify-content: space-between;
@@ -60,7 +82,6 @@ code {
   margin-top: 6px;
   background: rgba(0, 0, 0, 0.1);
 }
-
 
 .skill-per {
   display: block;
@@ -102,4 +123,40 @@ code {
   100% {
     opacity: 1;
   }
+}
+
+.profile-container {
+  background: var(--bg-green-color);
+  border: 3px solid #343434;
+  box-shadow: 7px 7px 0px 0px #343434;
+}
+
+/* Projects */
+
+.project-container {
+  position: relative;
+  box-shadow: 10px 10px 0px 0px rgb(63, 63, 114);
+}
+
+.detail {
+  display: none;
+}
+.project-container:hover .detail {
+  position: absolute;
+  top: -0.7rem;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  background: black;
+  opacity: 0.9;
+  color: #f5f4f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-container:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
