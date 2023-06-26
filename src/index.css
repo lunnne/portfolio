@@ -9,6 +9,8 @@
   --bg-white-color: #f5f4f2;
   --bg-green-color: #e6eed8;
   --main-yellow-color: #f1c848;
+  --main-green-color : #008000;
+  --main-navy-color :  rgb(63, 63, 114);
 }
 html {
   scroll-behavior: smooth;
@@ -53,7 +55,7 @@ code {
 .container {
   max-width: 45%;
   padding: 2.5rem;
-  border: 2px solid #008000;
+  border: 2px solid var(--main-green-color);
   background-color: #f5f4f2;
   border-radius: 7px;
   -webkit-box-shadow: 9px 9px 0px 0px rgba(0, 128, 0, 1);
@@ -87,7 +89,7 @@ code {
   display: block;
   height: 100%;
   border-radius: 6px;
-  background-color: rgb(63, 63, 114);
+  background-color: var(--main-navy-color);
   animation: progress 0.4s ease-in-out forwards;
   opacity: 0;
 }
@@ -127,8 +129,8 @@ code {
 
 .profile-container {
   background: var(--bg-green-color);
-  border: 3px solid #343434;
-  box-shadow: 7px 7px 0px 0px #343434;
+  border: 3px solid var(--main-green-color);
+  box-shadow: 7px 7px 0px 0px var(--main-green-color);
 }
 
 /* Projects */
@@ -159,4 +161,60 @@ code {
 .project-container:hover {
   transform: scale(1.1);
   transition: 0.3s ease-in-out;
+}
+
+form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid ;
+  border-radius: 7px;
+  padding: 3rem;
+}
+
+label {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: 30%;
+  height: 3rem;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
+
+input:focus {
+  border: 2px solid rgba(0, 206, 158, 1);
+}
+
+textarea {
+  max-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  max-height: 100px;
+  min-height: 100px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+}
+textarea:focus {
+  border: 2px solid rgba(0, 206, 158, 1);
+}
+
+input[type='submit'] {
+  width: 10%;
+  height: 3rem;
+  margin-top: 2rem;
+  cursor: pointer;
+  background: var(--main-yellow-color);
+  color: white;
+  border: none;
 }
