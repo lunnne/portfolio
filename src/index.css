@@ -50,8 +50,14 @@ code {
   border-top-left-radius: 22px;
   border-top-right-radius: 22px;
 }
-/* SkillSet */
 
+.profile-container {
+  background: var(--main-yellow-color);
+  border: 3px solid var(--main-yellow-color);
+  box-shadow: 7px 7px 0px 0px var(--main-yellow-color);
+}
+
+/* SKILL SET */
 .container {
   max-width: 45%;
   padding: 2.5rem;
@@ -127,17 +133,11 @@ code {
   }
 }
 
-.profile-container {
-  background: var(--bg-green-color);
-  border: 3px solid var(--main-green-color);
-  box-shadow: 7px 7px 0px 0px var(--main-green-color);
-}
 
-/* Projects */
-
+/* PROJECTS */
 .project-container {
   position: relative;
-  box-shadow: 10px 10px 0px 0px rgb(63, 63, 114);
+  box-shadow: 7px 7px 0px 0px rgb(63, 63, 114);
 }
 
 .detail {
@@ -163,13 +163,16 @@ code {
   transition: 0.3s ease-in-out;
 }
 
+
+/* CONTACT FORM */
 form {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
   width: 100%;
   font-size: 16px;
-  border: 1px solid ;
+  border: 2px solid var(--main-navy-color);
+  box-shadow: 10px 10px 0px 0px var(--main-navy-color);
   border-radius: 7px;
   padding: 3rem;
 }

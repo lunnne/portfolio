@@ -10,8 +10,11 @@ export default function MyWork() {
     });
   }, []);
   return (
-    <section id='projects' className="p-20">
-      <h2 className="text-5xl font-bold uppercase mb-20 italic text-center">Projects</h2>
+    <section id="projects" className="p-20">
+      <main className="mb-20 text-center space-y-5">
+        <h2 className="text-5xl font-bold uppercase">Projects</h2>
+        <p className="text-xl italic">Intruducing my web development journey</p>
+      </main>
       <main className="projects flex space-x-8">
         {projects.map((project) => (
           <Project project={project} />

@@ -27,14 +27,23 @@ export default function Contact() {
   };
   return (
     <section id="contact" className="p-20 bg-bg-green">
-      <h2 className="text-5xl font-bold uppercase mb-20 italic text-center ">Contact Me</h2>
+      <main className='text-center mb-20 space-y-5'>
+        <h2 className="text-5xl font-bold uppercase">Contact</h2>
+        <p className='text-xl italic'>Feel free to reach out to me :)</p>
+      </main>
       <form ref={form} onSubmit={sendEmail}>
-        <label>Your name</label>
+        <label>
+          Your name<span className='asterisk'>&#42;</span>
+        </label>
         <input type="text" name="user_name" />
-        <label>Your email</label>
+        <label>
+          Your email<span className='text-red-400'>&#42;</span>
+        </label>
         <input type="email" name="user_email" />
-        <label>Message</label>
-        <textarea name="message" />
+        <label>
+          Message<span className="text-red-500">&#42;</span>
+        </label>
+        <textarea name="message"/>
         <input type="submit" value="Send" />
       </form>
     </section>

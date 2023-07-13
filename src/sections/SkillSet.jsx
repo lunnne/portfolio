@@ -2,8 +2,11 @@ import React from 'react';
 
 export default function SkillSet() {
   return (
-    <section id='skills' className="bg-bg-green p-20">
-            <h2 className="text-5xl font-bold uppercase mb-20 italic text-center"><span>Skills</span></h2>
+    <section id="skills" className="bg-bg-green p-20">
+      <main className="mb-20 text-center space-y-5">
+        <h2 className="text-5xl font-bold uppercase">Skills</h2>
+        <p className="text-xl italic"></p>
+      </main>
       <section className="flex justify-center space-x-5 m-10 text-2xl">
         <main className="container">
           <h2 className="skill-title">Front-end</h2>
