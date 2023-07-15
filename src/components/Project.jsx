@@ -11,7 +11,7 @@ export default function Project({ project }) {
       <hr className="text-gray-300" />
       <div className="flex space-x-2">
         {Object.values(stack).map((stack) => (
-          <img className="w-7 lg:w-10" src={stack} />
+          <img className="w-7 lg:w-10" src={stack} alt='stack' />
         ))}
       </div>
       <div className="detail w-1/4 text-xl font-bold">

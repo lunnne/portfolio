@@ -15,8 +15,8 @@ export default function TypeWriter({ text }) {
       index.current += 1
     }, 90);
     return () => {
-        clearTimeout(timeoutId)
+        clearTimeout(timeoutId) 
     }
   }, [currentText, text]);
-  return <p className='text-orange-500'>{currentText}</p>;
+  return <>{currentText}</>;
 }

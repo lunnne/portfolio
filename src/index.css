@@ -7,6 +7,7 @@
   --main-bg-color: #fbede2;
   --bg-grey-color: #f9f5f2;
   --bg-white-color: #f5f4f2;
+  --bg-grey-smoke : #E8E8E8;
   --bg-green-color: #e6eed8;
   --main-yellow-color: #f1c848;
   --main-green-color : #008000;
@@ -56,6 +57,55 @@ code {
   border: 3px solid var(--main-yellow-color);
   box-shadow: 7px 7px 0px 0px var(--main-yellow-color);
 }
+
+
+/* ABOUT ME */
+.speech-bubble {
+	position: relative;
+	background: var(--bg-grey-smoke);
+	border-radius: .4em;
+  padding: 1rem;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 0.969em solid transparent;
+	border-left-color: var(--bg-grey-smoke);
+	border-right: 0;
+	border-top: 0;
+	margin-top: -0.484em;
+	margin-right: -0.969em;
+}
+
+.speech-bubble-left {
+	position: relative;
+	background: var(--bg-grey-smoke);
+	border-radius: .4em;
+  padding: 1rem;
+}
+
+.speech-bubble-left:after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 0.969em solid transparent;
+	border-right-color: var(--bg-grey-smoke);
+	border-left-color: var(--bg-grey-smoke);
+
+	border-left: 0;
+	border-top: 0;
+	margin-top: -0.484em;
+	margin-left: -0.969em;
+}
+
 
 /* SKILL SET */
 .container {
@@ -137,6 +187,7 @@ code {
 /* PROJECTS */
 .project-container {
   position: relative;
+  border-color: var(--main-navy-color);
   box-shadow: 7px 7px 0px 0px rgb(63, 63, 114);
 }
 
@@ -145,23 +196,20 @@ code {
 }
 .project-container:hover .detail {
   position: absolute;
-  top: -0.7rem;
+  top: -0.75rem;
   right: 0;
   width: 100%;
   height: 100%;
-  border-radius: 7px;
+  border-radius: 6px;
+  border: 2px solid black;
   background: black;
-  opacity: 0.9;
+  opacity: 0.8;
   color: #f5f4f2;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.project-container:hover {
-  transform: scale(1.1);
-  transition: 0.3s ease-in-out;
-}
 
 
 /* CONTACT FORM */

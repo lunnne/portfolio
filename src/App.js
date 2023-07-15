@@ -1,4 +1,3 @@
-import Navbar from './components/Navbar';
 import './App.css';
 import AboutMe from './sections/AboutMe.jsx';
 import SkillSet from './sections/SkillSet.jsx';
