@@ -36,9 +36,9 @@ body {
 }
 
 #root {
-  @apply w-full max-w-screen-xl h-full;
+  @apply w-full h-full;
+  @apply max-w-screen-xl;
   @apply border-4;
-  @apply sm:w-full ;
   border-radius: 22px;
   box-shadow: 9px 9px 0px 0px rgb(0, 0, 0);
   background: var(--bg-grey-color);
