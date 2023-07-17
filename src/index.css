@@ -39,6 +39,7 @@ body {
   @apply w-full h-full;
   @apply max-w-screen-xl;
   @apply border-4;
+  max-width: 1280px;
   border-radius: 22px;
   box-shadow: 9px 9px 0px 0px rgb(0, 0, 0);
   background: var(--bg-grey-color);
