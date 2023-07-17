@@ -1,9 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { BsMoonFill } from 'react-icons/bs';
-import { RxHamburgerMenu } from 'react-icons/rx';
+// import { RxHamburgerMenu } from 'react-icons/rx';
 export default function Navbar() {
-  const [menu, setMenu] = useState(true);
-
   return (
     <nav className="flex justify-between items-center text-3xl">
       <div className="text-2xl sm:text-5xl font-bold flex items-center space-x-3">
@@ -14,28 +12,24 @@ export default function Navbar() {
           JIN<span>.MUN</span>
         </div>
       </div>
-        {/* <button onClick={() => setMenu(!menu)} className="visible md:invisible">
+      {/* <button onClick={() => setMenu(!menu)} className="visible md:invisible">
           <RxHamburgerMenu />
         </button> */}
-        {menu === true ? (
-          <ul className="sm:flex space-x-10 [&>li]:uppercase font-bold">
-            <li>
-              <a href="#about">About</a>
-            </li>
-            <li>
-              <a href="#skills">Skills</a>
-            </li>
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        ) : (
-          ''
-        )}
 
+      <ul className="sm:flex space-x-10 [&>li]:uppercase font-bold">
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#skills">Skills</a>
+        </li>
+        <li>
+          <a href="#projects">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
     </nav>
   );
 }
