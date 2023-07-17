@@ -1,40 +1,44 @@
 [
   {
     "title": "Motion",
-    "detail": "",
-    "thumbnail_url": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687791034/portfolio/screenshot/motion_dvjxb5.png",
+    "detail": "A simple multimedia note application built with vanilla TypeScript",
+    "thumbnail_url": "https://res.cloudinary.com/drhck7nyy/image/upload/v1689558016/portfolio/screenshot/motion_owkren.png",
     "stack": {
       "typescript": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687199904/portfolio/logos/icons8-typescript-48_id4e63.png",
       "tailwind": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687199901/portfolio/logos/icons8-tailwind-css-48_ag0oag.png"
-    }
+    },
+    "git_url":"https://github.com/lunnne/motion-ts"
   },
 
   {
     "title": "Seller Moon",
-    "detail": "private shopping mall page",
+    "detail": "A personalized shopping application that implements Google OAuth and Cloudinary Storage API",
     "thumbnail_url": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687200479/portfolio/screenshot/sellermoon_smfxfh.png",
     "stack": {
       "react": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687200244/portfolio/logos/icons8-react-native-48_wpctfd.png",
-      "cloudinary" : "https://res.cloudinary.com/drhck7nyy/image/upload/v1687792098/portfolio/logos/cloudinary_web_favicon_jvw0np.png",
+      "cloudinary": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687792098/portfolio/logos/cloudinary_web_favicon_jvw0np.png",
       "tailwind": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687199901/portfolio/logos/icons8-tailwind-css-48_ag0oag.png"
-    }
+    },
+    "git_url":"https://github.com/lunnne/shoppy-project"
   },
   {
     "title": "Portfolio",
-    "detail": "Portfolio website",
+    "detail": "My portfolio website",
     "thumbnail_url": "https://res.cloudinary.com/drhck7nyy/image/upload/v1689428781/portfolio/screenshot/portfolio_web_imyvgv.png",
     "stack": {
       "react": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687200244/portfolio/logos/icons8-react-native-48_wpctfd.png",
       "tailwind": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687199901/portfolio/logos/icons8-tailwind-css-48_ag0oag.png"
-    }
+    },
+    "git_url":"https://github.com/lunnne/portfolio"
   },
   {
     "title": "Youtube Clone",
-    "detail": "youtube clone coding",
+    "detail": "YouTube clone App using the YouTube data API",
     "thumbnail_url": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687204217/portfolio/screenshot/youtube_f1appu.png",
     "stack": {
       "react": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687200244/portfolio/logos/icons8-react-native-48_wpctfd.png",
       "tailwind": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687199901/portfolio/logos/icons8-tailwind-css-48_ag0oag.png"
-    }
+    },
+    "git_url":"https://github.com/lunnne/youtube-clone"
   }
 ]

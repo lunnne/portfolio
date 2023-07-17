@@ -3,19 +3,22 @@ import Navbar from '../components/Navbar';
 import TypeWriter from '../components/TypeWriter';
 
 export default function Header() {
-  const text = `CCurious, passionate learner and seeking growth.`;
+  const text = ` A  front-end developer.`;
   return (
     <header className="p-20 bg-bg-green header">
       <Navbar />
-      <div class="py-20 grid grid-cols-3 items-center">
-        <div className='col-span-2 p-20'>
-          <h1 className="text-5xl italic font-bold my-10 tracking-wide">I'm a <span className='uppercase bg-yellow bg-opacity-30'>front-end developer</span>,</h1>
-            <p className='text-4xl w-2/3 leading-relaxed'>
+      <div class="py-20 space-y-10 sm:grid sm:grid-cols-3 items-center">
+        <div className="col-span-2 sm:p-10">
+          <h1 className="text-3xl sm:text-5xl font-bold sm:my-8 uppercase">Hi! I'm Jin Mun,</h1>
+          <h2 className="text-3xl sm:text-5xl font-bold italic my-5">
+            <span className="bg-yellow bg-opacity-30">
               <TypeWriter text={text} />
-            </p>
+            </span>
+          </h2>
+          <p className="sm:text-2xl font-semibold">Curious, passionate learner and seeking growth</p>
         </div>
 
-        <div className='p-10 justify-center items-center'>
+        <div className="sm:p-10 justify-center items-center">
           <div className="profile-container rounded-3xl overflow-hidden">
             <img className="w-96 rounded-xl" src="/img/Profile.jpg" alt="profile" />
           </div>

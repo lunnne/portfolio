@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Project from '../components/Project';
 import axios from 'axios';
+import { Link } from 'react-router-dom';
 
 export default function MyWork() {
   const [projects, setProjects] = useState([]);
@@ -11,13 +12,15 @@ export default function MyWork() {
   }, []);
   return (
     <section id="projects" className="p-20">
-      <main className="mb-20 text-center space-y-5">
-        <h2 className="text-5xl font-bold uppercase">Projects</h2>
-        <p className="text-xl italic">Intruducing my web development journey</p>
+      <main className="mb-10 sm:mb-20 text-center space-y-5">
+        <h2 className="text-3xl sm:text-5xl font-bold uppercase">Projects</h2>
+        <p className="text-lg sm:text-xl italic">Intruducing my web development journey</p>
       </main>
-      <main className="projects flex space-x-8">
-        {projects.map((project) => (
-          <Project project={project} />
+      <main className="projects md:flex space-x-8 overflow-x-auto">
+        {projects.map((project, index) => (
+          <Link to={project.git_url} key={index}>
+            <Project project={project} />
+          </Link>
         ))}
       </main>
     </section>

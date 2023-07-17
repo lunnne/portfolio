@@ -27,11 +27,11 @@ export default function Contact() {
   };
   return (
     <section id="contact" className="p-20 bg-bg-green">
-      <main className='text-center mb-20 space-y-5'>
-        <h2 className="text-5xl font-bold uppercase">Contact</h2>
-        <p className='text-xl italic'>Feel free to reach out to me :)</p>
+      <main className='text-center sm:mb-20 space-y-5'>
+        <h2 className="text-3xl sm:text-5xl font-bold uppercase">Contact</h2>
+        <p className='text-lg sm:text-xl italic'>Feel free to reach out to me :)</p>
       </main>
-      <form ref={form} onSubmit={sendEmail}>
+      <form ref={form} onSubmit={sendEmail} className='text-lg sm:text-2xl'>
         <label>
           Your name<span className='asterisk'>&#42;</span>
         </label>

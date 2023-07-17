@@ -1,22 +1,41 @@
-import React from 'react';
-import { BsFillMoonStarsFill } from 'react-icons/bs';
+import React, { useState } from 'react';
+import { BsMoonFill } from 'react-icons/bs';
+import { RxHamburgerMenu } from 'react-icons/rx';
 export default function Navbar() {
+  const [menu, setMenu] = useState(true);
+
   return (
-    <nav className="flex justify-between text-3xl">
-      <div className="text-5xl font-bold flex space-x-3">
-        <div >
-          <BsFillMoonStarsFill style={{color : 'rgb(250 204 21)'}}/>
+    <nav className="flex justify-between items-center text-3xl">
+      <div className="text-2xl sm:text-5xl font-bold flex items-center space-x-3">
+        <div className="text-lg sm:text-4xl">
+          <BsMoonFill />
         </div>
         <div>
           JIN<span>.MUN</span>
         </div>
       </div>
-      <ul className="flex space-x-10 [&>li]:uppercase font-bold">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+        {/* <button onClick={() => setMenu(!menu)} className="visible md:invisible">
+          <RxHamburgerMenu />
+        </button> */}
+        {menu === true ? (
+          <ul className="sm:flex space-x-10 [&>li]:uppercase font-bold">
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#skills">Skills</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        ) : (
+          ''
+        )}
+
     </nav>
   );
 }

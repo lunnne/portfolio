@@ -3,11 +3,11 @@ import React from 'react';
 export default function AboutMe() {
   return (
     <section id="about" className="p-20">
-      <main className="mb-20 text-center space-y-5">
-        <h2 className="text-5xl font-bold uppercase">About Me</h2>
-        <p className="text-xl italic">Get to know me: Interesting facts and passions</p>
+      <main className="mb-10 sm:mb-20 text-center space-y-5">
+        <h2 className="text-3xl sm:text-5xl font-bold uppercase">About Me</h2>
+        <p className="text-lg sm:text-xl italic">Get to know me: Interesting facts and passions</p>
       </main>
-      <div className="text-2xl space-y-10 [&>*]:leading-relaxed [&>*]:tracking-tight">
+      <div className="sm:text-2xl space-y-10 [&>*]:leading-relaxed [&>*]:tracking-tight">
         <p className="speech-bubble">
           Enthusiastic web developer who completed the web developer course at Ironhack Berlin, do coding as a daily joy.
         </p>
