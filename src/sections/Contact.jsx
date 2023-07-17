@@ -26,7 +26,7 @@ export default function Contact() {
       );
   };
   return (
-    <section id="contact" className="p-20 bg-bg-green">
+    <section id="contact" className="contact p-20 bg-bg-green">
       <main className='text-center sm:mb-20 space-y-5'>
         <h2 className="text-3xl sm:text-5xl font-bold uppercase">Contact</h2>
         <p className='text-lg sm:text-xl italic'>Feel free to reach out to me :)</p>

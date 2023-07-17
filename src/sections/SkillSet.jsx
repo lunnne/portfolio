@@ -7,7 +7,7 @@ export default function SkillSet() {
         <h2 className="text-5xl font-bold uppercase">Skills</h2>
         <p className="text-xl italic"></p>
       </main>
-      <section className="flex justify-center space-x-5 m-10 text-2xl">
+      <section className="sm:flex justify-center space-x-5 m-10 text-2xl">
         <main className="container">
           <h2 className="skill-title">Front-end</h2>
           <div className="skill-box">

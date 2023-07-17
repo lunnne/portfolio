@@ -8,11 +8,12 @@ import Header from './sections/Header';
 function App() {
   return (
     <div className="App">
-      <Header/>      
+      <Header />
       <AboutMe />
       <SkillSet />
       <MyWork />
       <Contact />
+      <footer className="footer text-center bg-bg-green text-lg font-bold pb-2">JinMun's portfolio © 2023 | All rights reserved.</footer>
     </div>
   );
 }
