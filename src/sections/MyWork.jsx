@@ -11,7 +11,7 @@ export default function MyWork() {
     });
   }, []);
   return (
-    <section id="projects" className="p-20">
+    <section id="projects" className="p-10 sm:p-20">
       <main className="mb-10 sm:mb-20 text-center space-y-5">
         <h2 className="text-3xl sm:text-5xl font-bold uppercase">Projects</h2>
         <p className="text-lg sm:text-xl italic">Intruducing my web development journey</p>

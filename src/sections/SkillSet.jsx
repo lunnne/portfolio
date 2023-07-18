@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function SkillSet() {
   return (
-    <section id="skills" className="bg-bg-green p-20">
+    <section id="skills" className="bg-bg-green p-10 sm:p-20">
       <main className="mb-20 text-center space-y-5">
         <h2 className="text-5xl font-bold uppercase">Skills</h2>
         <p className="text-xl italic"></p>

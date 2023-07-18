@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function AboutMe() {
   return (
-    <section id="about" className="p-20">
+    <section id="about" className="p-10 sm:p-20">
       <main className="mb-10 sm:mb-20 text-center space-y-5">
         <h2 className="text-3xl sm:text-5xl font-bold uppercase">About Me</h2>
         <p className="text-lg sm:text-xl italic">Get to know me: Interesting facts and passions</p>
