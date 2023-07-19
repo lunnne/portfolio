@@ -6,7 +6,7 @@ export default function SkillSet() {
   return (
     <section id="skills" className="bg-bg-green p-10 sm:p-20">
       <main className="mb-20 text-center space-y-5">
-        <h2 className="text-5xl font-bold uppercase">Skills</h2>
+        <h2 className="text-3xl sm:text-5xl font-bold uppercase">Skills</h2>
         <p className="text-xl italic">Skills & Attributes</p>
       </main>
       <section className="container sm:grid grid-rows-2 grid-flow-col">
