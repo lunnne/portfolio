@@ -18,7 +18,7 @@ export default function Header() {
             </span>
           </h2>
           <p className="sm:text-2xl font-semibold">Curious, passionate learner and seeking growth</p>
-          <div className="flex sm:text-4xl space-x-3 sm:space-x-5 my-10">
+          <div className="flex text-2xl sm:text-4xl space-x-3 sm:space-x-5 my-10">
             <Link to="https://github.com/lunnne">
               <BsGithub />
             </Link>
