@@ -13,7 +13,7 @@
   {
     "title": "Seller Moon",
     "detail": "A personalized shopping application that implements Google OAuth and Cloudinary Storage API",
-    "thumbnail_url": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687200479/portfolio/screenshot/sellermoon_smfxfh.png",
+    "thumbnail_url": "https://res.cloudinary.com/drhck7nyy/image/upload/v1689726508/portfolio/screenshot/sellermoon_2_fm2kaf.png",
     "stack": {
       "react": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687200244/portfolio/logos/icons8-react-native-48_wpctfd.png",
       "cloudinary": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687792098/portfolio/logos/cloudinary_web_favicon_jvw0np.png",
@@ -22,23 +22,33 @@
     "git_url":"https://github.com/lunnne/shoppy-project"
   },
   {
-    "title": "Portfolio",
-    "detail": "My portfolio website",
-    "thumbnail_url": "https://res.cloudinary.com/drhck7nyy/image/upload/v1689428781/portfolio/screenshot/portfolio_web_imyvgv.png",
-    "stack": {
-      "react": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687200244/portfolio/logos/icons8-react-native-48_wpctfd.png",
-      "tailwind": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687199901/portfolio/logos/icons8-tailwind-css-48_ag0oag.png"
-    },
-    "git_url":"https://github.com/lunnne/portfolio"
-  },
-  {
     "title": "Youtube Clone",
     "detail": "YouTube clone App using the YouTube data API",
     "thumbnail_url": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687204217/portfolio/screenshot/youtube_f1appu.png",
     "stack": {
       "react": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687200244/portfolio/logos/icons8-react-native-48_wpctfd.png",
-      "tailwind": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687199901/portfolio/logos/icons8-tailwind-css-48_ag0oag.png"
+      "postCSS": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687200465/portfolio/logos/postcss-83d93145_xrfycf.svg"
     },
     "git_url":"https://github.com/lunnne/youtube-clone"
+  },
+  {
+    "title": "Voice diary",
+    "detail": "A diary application that used voice recordings instead of text writing",
+    "thumbnail_url": "https://res.cloudinary.com/drhck7nyy/image/upload/v1689726104/portfolio/screenshot/voice_d7kbgp.png",
+    "stack": {
+      "react": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687200244/portfolio/logos/icons8-react-native-48_wpctfd.png",
+      "nodeJS": "https://res.cloudinary.com/drhck7nyy/image/upload/v1689726398/portfolio/logos/node.js_1_bcoyev.png"
+    },
+    "git_url":"https://github.com/lunnne/youtube-clone"
+  },
+  {
+    "title": "Portfolio",
+    "detail": "My portfolio website",
+    "thumbnail_url": "https://res.cloudinary.com/drhck7nyy/image/upload/v1689726600/portfolio/screenshot/portfolioimg_cwxbrg.png",
+    "stack": {
+      "react": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687200244/portfolio/logos/icons8-react-native-48_wpctfd.png",
+      "tailwind": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687199901/portfolio/logos/icons8-tailwind-css-48_ag0oag.png"
+    },
+    "git_url":"https://github.com/lunnne/portfolio"
   }
 ]

@@ -16,7 +16,7 @@ export default function Project({ project }) {
           ))}
         </div>
       </div>
-      <div className="detail px-5 text-xl text-center leading-10">
+      <div className="detail px-5 sm:text-xl text-center leading-10">
         <p>{detail}</p>
       </div>
     </div>

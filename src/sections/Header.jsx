@@ -1,8 +1,11 @@
 import React from 'react';
 import TypeWriter from '../components/TypeWriter';
+import { BsLinkedin, BsGithub } from 'react-icons/bs';
+import { MdAlternateEmail } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 export default function Header() {
-  const text = ` a front-end developer.`;
+  const text = ` aa front-end developer.`;
   return (
     <header className="p-10 sm:p-20 bg-bg-green header">
       <div className="space-y-10 sm:grid sm:grid-cols-3 items-center">
@@ -14,6 +17,17 @@ export default function Header() {
             </span>
           </h2>
           <p className="sm:text-2xl font-semibold">Curious, passionate learner and seeking growth</p>
+          <div className="flex sm:text-4xl space-x-3 sm:space-x-5 my-10">
+            <Link to="https://github.com/lunnne">
+              <BsGithub />
+            </Link>
+            <Link to="https://www.linkedin.com/in/jin-mun-5713b4248/">
+              <BsLinkedin />
+            </Link>
+            <Link to="mailto:jinmun.dev@gmail.com">
+              <MdAlternateEmail />
+            </Link>
+          </div>
         </div>
 
         <div className="sm:p-10 justify-center items-center">
