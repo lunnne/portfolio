@@ -5,7 +5,7 @@ export default function Header() {
   const text = ` a front-end developer.`;
   return (
     <header className="p-10 sm:p-20 bg-bg-green header">
-      <div className="sm:py-20 space-y-10 sm:grid sm:grid-cols-3 items-center">
+      <div className="space-y-10 sm:grid sm:grid-cols-3 items-center">
         <div className="col-span-2 sm:p-10">
           <h1 className="text-3xl sm:text-5xl font-bold sm:my-8 uppercase">Hi! I'm Jin Mun,</h1>
           <h2 className="text-3xl sm:text-5xl font-bold italic my-5">

@@ -15,7 +15,7 @@ function App() {
       <SkillSet />
       <MyWork />
       <Contact />
-      <footer className="footer text-center bg-bg-green sm:text-lg font-bold pb-2">JinMun's portfolio © 2023 | All rights reserved.</footer>
+      <footer className="footer text-center bg-bg-green text-sm sm:text-lg font-bold pb-2">JinMun's portfolio © 2023 | All rights reserved.</footer>
     </div>
   );
 }

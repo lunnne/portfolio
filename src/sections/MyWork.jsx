@@ -16,7 +16,7 @@ export default function MyWork() {
         <h2 className="text-3xl sm:text-5xl font-bold uppercase">Projects</h2>
         <p className="text-lg sm:text-xl italic">Intruducing my web development journey</p>
       </main>
-      <main className="projects md:flex space-x-8 overflow-x-auto">
+      <main className="projects md:flex sm:space-x-8 overflow-x-auto">
         {projects.map((project, index) => (
           <Link to={project.git_url} key={index}>
             <Project project={project} />
