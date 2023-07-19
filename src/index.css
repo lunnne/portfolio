@@ -247,7 +247,7 @@ code {
 }
 
 .skill-per.css {
-  width: 90%;
+  width: 95%;
   animation-delay: 0.1s;
 }
 
@@ -263,6 +263,10 @@ code {
 .skill-per.typescript {
   width: 80%;
   animation-delay: 0.4s;
+}
+.skill-per.node {
+  width: 65%;
+  animation-delay: 0.5s;
 }
 
 .tooltip {

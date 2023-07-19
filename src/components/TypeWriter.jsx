@@ -1,13 +1,17 @@
 import React, { useEffect, useState, useRef } from 'react';
+import { useInView } from 'react-intersection-observer';
+
 
 export default function TypeWriter({ text }) {
   const index = useRef(0);
   const [currentText, setCurrentText] = useState('');
+  const { ref: typeRef, inView: typeRefIsVisible } = useInView();
+
 
   useEffect(()=>{
       index.current = 0;
       setCurrentText('')
-  },[text])
+  },[typeRefIsVisible])
 
   useEffect(() => {
     const timeoutId = setTimeout(() => {
@@ -18,5 +22,5 @@ export default function TypeWriter({ text }) {
         clearTimeout(timeoutId) 
     }
   }, [currentText, text]);
-  return <>{currentText}</>;
+  return <span ref={typeRef}>{typeRefIsVisible? <span>{currentText}</span>:''}</span>;
 }

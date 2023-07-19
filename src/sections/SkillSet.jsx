@@ -1,6 +1,8 @@
 import React from 'react';
+import { useInView } from 'react-intersection-observer';
 
 export default function SkillSet() {
+  const { ref: skillRef, inView: skillRefIsVisible } = useInView();
   return (
     <section id="skills" className="bg-bg-green p-10 sm:p-20">
       <main className="mb-20 text-center space-y-5">
@@ -14,16 +16,16 @@ export default function SkillSet() {
             <span className="block sm:text-xl mb-1">HTML/CSS</span>
             <div className="flex space-x-10">
               <div className="skill-bar">
-                <span className="skill-per css"></span>
+                <span ref={skillRef} className={skillRefIsVisible? "skill-per css" : ''}></span>
               </div>
-              <div className="tooltip -translate-y-1">98%</div>
+              <div className="tooltip -translate-y-1">95%</div>
             </div>
           </div>
           <div className="skill-box">
             <span className="block sm:text-xl mb-1">JavaScript</span>
             <div className="flex space-x-10">
               <div className="skill-bar">
-                <span className="skill-per javascript"></span>
+                <span ref={skillRef} className={skillRefIsVisible? "skill-per javascript" : ''}></span>
               </div>
               <div className="tooltip -translate-y-1">90%</div>
             </div>
@@ -32,7 +34,7 @@ export default function SkillSet() {
             <span className="block sm:text-xl mb-1">Typescript</span>
             <div className="flex space-x-10">
               <div className="skill-bar">
-                <span className="skill-per typescript"></span>
+                <span ref={skillRef} className={skillRefIsVisible? "skill-per typescript" : ''}></span>
               </div>
               <div className="tooltip -translate-y-1">80%</div>
             </div>
@@ -41,7 +43,7 @@ export default function SkillSet() {
             <span className="block sm:text-xl mb-1">React</span>
             <div className="flex space-x-10">
               <div className="skill-bar">
-                <span className="skill-per react"></span>
+                <span ref={skillRef} className={skillRefIsVisible? "skill-per react" : ''}></span>
               </div>
               <div className="tooltip -translate-y-1">85%</div>
             </div>
@@ -50,7 +52,7 @@ export default function SkillSet() {
             <span className="block sm:text-xl mb-1">node.js</span>
             <div className="flex space-x-10">
               <div className="skill-bar">
-                <span className="skill-per css"></span>
+                <span ref={skillRef} className={skillRefIsVisible? "skill-per node" : ''}></span>
               </div>
               <span className="tooltip -translate-y-1">65%</span>
             </div>
