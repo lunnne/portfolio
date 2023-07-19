@@ -63,7 +63,7 @@ export default function SkillSet() {
           <p className="sm:text-lg">Visual Studio Code</p>
           <p className="sm:text-lg">IntelliJ</p>
         </main>
-        <main className="bg-bg-grey p-10 text-center rounded-br-[7px] sm:raw-span-1 sm:col-span-1">
+        <main className="bg-bg-grey p-10 text-center rounded-bl-[7px] rounded-br-[7px] sm:raw-span-1 sm:col-span-1">
           <h2 className="font-bold sm:text-3xl sm:pt-10 pb-5 ">Etc</h2>
           <p className="sm:text-lg">Git</p>
           <p className="sm:text-lg">Scrum Master</p>
