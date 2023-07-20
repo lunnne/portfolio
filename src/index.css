@@ -149,8 +149,8 @@ code {
   }
 
   .visible li:hover {
-    border: 1px solid var(--main-yellow-color);
-    border-radius: 4px;
+    background-color: var(--main-bg-color);
+    border-radius: 7px;
   }
 }
 

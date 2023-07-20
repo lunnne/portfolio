@@ -58,7 +58,7 @@ export default function SkillSet() {
             </div>
           </div>
         </main>
-        <main className="bg-bg-dark-grey p-10 text-center rounded-tr-[7px] sm:raw-span-1 sm:col-span-1">
+        <main className="bg-bg-dark-grey p-10 text-center sm:rounded-tr-[7px] sm:raw-span-1 sm:col-span-1">
           <h2 className="font-bold sm:pt-10 pb-5 sm:text-3xl">Tools</h2>
           <p className="sm:text-lg">Visual Studio Code</p>
           <p className="sm:text-lg">IntelliJ</p>
