@@ -14,7 +14,7 @@ export default function MyWork() {
     <section id="projects" className="p-10 sm:p-20">
       <main className="mb-10 sm:mb-20 text-center space-y-5">
         <h2 className="text-3xl sm:text-5xl font-bold uppercase">Projects</h2>
-        <p className="text-lg sm:text-xl italic">Intruducing my web development journey</p>
+        <p className="text-lg sm:text-xl italic">Introducing my web development journey</p>
       </main>
       <main className="projects md:flex sm:space-x-8 overflow-x-auto">
         {projects.map((project, index) => (

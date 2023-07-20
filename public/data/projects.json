@@ -12,7 +12,7 @@
 
   {
     "title": "Seller Moon",
-    "detail": "A personalized shopping application that implements Google OAuth and Cloudinary Storage API",
+    "detail": "A shopping application that implements Google OAuth and Cloudinary Storage API",
     "thumbnail_url": "https://res.cloudinary.com/drhck7nyy/image/upload/v1689726508/portfolio/screenshot/sellermoon_2_fm2kaf.png",
     "stack": {
       "react": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687200244/portfolio/logos/icons8-react-native-48_wpctfd.png",

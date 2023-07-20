@@ -15,16 +15,25 @@ export default function Navbar() {
           JIN<span>.MUN</span>
         </div>
       </div>
-      <ul className={menu ? 'visible text-lg sm:text-3xl space-x-3' : 'nav_li text-lg sm:text-2xl space-x-3'}>
+      <ul
+        className={
+          menu
+            ? 'visible text-center font-bold uppercase tracking-tight [&>li]:w-full [&>li]:py-1 text-lg sm:text-3xl sm:space-x-3'
+            : 'nav_li text-lg sm:text-2xl space-x-3'
+        }
+      >
         <li>
           <a href="#about">About</a>
         </li>
+
         <li>
           <a href="#skills">Skills</a>
         </li>
+
         <li>
           <a href="#projects">Projects</a>
         </li>
+
         <li>
           <a href="#contact">Contact</a>
         </li>

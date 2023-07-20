@@ -25,7 +25,7 @@ html {
 }
 
 li {
-  margin-left: 0;
+  margin: 0;
 }
 
 body {
@@ -119,15 +119,21 @@ code {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 1rem;
   }
 
   .visible{
+    position: absolute;
+    top: 80%;
+    right: 0.1%;
+    /* border: 2px solid #008000; */
+    padding: 0.5rem 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 1rem;
+    z-index: 1;
+    background: var(--bg-green-color);
+    
   }
 
   .nav_li li {
@@ -140,6 +146,11 @@ code {
     display: block;
     position: absolute;
     right: 1rem;
+  }
+
+  .visible li:hover {
+    border: 1px solid var(--main-yellow-color);
+    border-radius: 4px;
   }
 }
 
@@ -331,8 +342,6 @@ form {
 }
 
 label {
-  font-size: 1.5rem;
-  font-weight: bold;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
 }
