@@ -9,7 +9,7 @@ export default function AboutMe() {
       </main>
       <div className="sm:text-2xl space-y-10 [&>*]:leading-relaxed [&>*]:tracking-tight">
         <p className="speech-bubble">
-          Enthusiastic web developer who completed the web developer course at Ironhack Berlin, do coding as a daily joy.
+          Enthusiastic web developer who completed the full-stack development course at Ironhack Berlin, do coding as a daily joy.
         </p>
         <p className="speech-bubble-left">
           Dedicated to the art of writing clean code and constantly refining projects for a more structured and efficient development experience.
