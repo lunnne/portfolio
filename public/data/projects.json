@@ -42,6 +42,15 @@
     "git_url":"https://github.com/lunnne/project3-voice-diary"
   },
   {
+    "title": "Debug-game",
+    "detail": "Catch the bugs in your office within a limited time.",
+    "thumbnail_url": "https://res.cloudinary.com/drhck7nyy/image/upload/v1690375003/portfolio/screenshot/Screenshot_debug_12_v3zuke.png",
+    "stack": {
+      "javascript": "https://res.cloudinary.com/drhck7nyy/image/upload/v1687199897/portfolio/logos/icons8-javascript-48_rd6ttg.png"
+    },
+    "git_url":"https://github.com/lunnne/project1-minigame"
+  },
+  {
     "title": "Portfolio",
     "detail": "My portfolio website",
     "thumbnail_url": "https://res.cloudinary.com/drhck7nyy/image/upload/v1689726600/portfolio/screenshot/portfolioimg_cwxbrg.png",
